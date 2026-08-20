@@ -51,7 +51,7 @@ jobs:
           registry-username: ${{ secrets.ACR_USERNAME }}
           registry-password: ${{ secrets.ACR_PASSWORD }}
           name: aci-api-clientes
-          location: eastus
+          location: centralus
           ports: 3000
           environment-variables: |
             DB_HOST=${{ secrets.DB_HOST }}
